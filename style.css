@@ -1,0 +1,142 @@
+
+/*  index.html file ka css */
+.head{
+   
+    color:  rgb(95, 92, 92);
+    font-size:350%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-variant: normal;
+    text-shadow: 4px 4px 4px rgb(247, 243, 243);
+    letter-spacing: 0.4rem;
+    border-radius: 25px;
+    font-weight: bolder;
+   
+}
+.body{
+    background-image: url("images/blk_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+
+}
+.music{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+.english ,.hindi ,.tamil{
+    color:  rgb(95, 92, 92);
+    display: grid;
+    grid-template-columns: 0.7fr;
+    grid-template-rows: 0.7fr 0.7fr;
+    border: 2px rgb(132, 129, 129) solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px rgb(156, 153, 153);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 4px rgb(247, 243, 243);
+    letter-spacing: 0.4rem;
+}
+.img{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.change{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+.footer{
+    color:  rgb(95, 92, 92);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 4px rgb(247, 243, 243);
+    letter-spacing: 0.4rem;
+    text-align: center;
+    height: 30vh;
+    margin-top: 60px;
+
+}
+
+/* english.html file ka css  */
+
+
+
+.song1{
+ 
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 0.7fr;
+    grid-template-rows: 0.7fr 0.7fr;
+    border: 2px rgb(132, 129, 129) solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px rgb(156, 153, 153);
+    margin: 10px;
+    padding-top: 20px;
+    height: 75vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.div1{
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: 0.7fr 0.7fr 0.7fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: 70px;
+}
+.audio{
+    width: 255px;
+    background-color: white;
+    box-shadow: 9px 9px 9px rgb(156, 153, 153);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.back{
+    color: rgb(247, 243, 243);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 4px  rgb(95, 92, 92);
+    letter-spacing: 0.3rem;
+   
+}
+.div0{
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    justify-content: right;
+    text-decoration: none;
+    margin-right: 90px;
+    margin-top: 20px;
+  
+}
+#goback{
+    margin-top: 30px;
+    font-weight: 900;
+}
+.song_name{
+    color: #bcbcbc;
+    font-weight: 600;
+}
+.singer_name{
+     color: #7d7d7d;
+     font-weight: 200;
+     font-size: small;
+     
+}
+
